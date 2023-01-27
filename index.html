@@ -9,7 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="./css/styles.css">
+<link href="./css/styles.css" rel="stylesheet" />
+<link href="./css/mobile.css" rel="stylesheet" />
+<link href="./css/tablet.css" rel="stylesheet" />
+<link href="./css/desktop.css" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
@@ -22,6 +25,11 @@
             <li class="header-items"><a href="" class="header-link link">Contacts</a></li>
         </ul>
         </nav>
+        <button type="button" class="mobile-menu-btn">
+            <svg class="mobile-menu-btn-icon" width="32" heigth="32">
+                <use href="./img/icons.svg#icon-menu_btn"></use>
+            </svg>
+        </button>
         <ul class="header-list list">
             <li class="header-contacts"><a href="mailto:info@devstudio.com" class="header-link-contacts link">info@devstudio.com</a></li>
             <li class="header-contacts"><a href="tel:+110001111111" class="header-link-contacts link">+11 (000) 111-11-11</a></li>
@@ -29,7 +37,7 @@
         </div>
     </header>
     <main>
-    <section class="top">
+    <!--<section class="top">
         <div class="container">
         <h1 class="top-title">Effective Solutions 
             for Your Business</h1>
@@ -337,7 +345,7 @@
                 <button type="submit" class="modal-form-submit">Send</button>
             </form>
         </div>
-    </div>
+    </div>-->
 
     <script src="./js/modal.js"></script>
 </body>
