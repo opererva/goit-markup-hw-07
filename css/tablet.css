@@ -3,4 +3,46 @@
             width: 768px;
             
     }
+    /* -----------SECOND SECTION---------- */
+    .second-list {
+        row-gap: 72px;
+    }
+    .second-items {
+        width: calc((100% - 24px) / 2);       
+}
+
+.second-title {
+    text-align: left;
+}
+/* -------------TEAM------------ */
+    .team {
+        padding-top: ;
+        padding-bottom: 104px;
+    }
+
+    .team >.container {
+        width: 582px;
+    }
+.team-list {
+row-gap: 64px;
+column-gap: 24px;
+}
+
+.team-items {
+    width: calc((100% - 24px) / 2);
+}
+
+/*--------CUSTOMERS-------*/
+.customers-list {
+    column-gap: 24px;   
+}
+
+.costomers-items  {
+    width: calc((100% - 48 px ) / 3);
+    max-width: 168px;
+    height: 88px;
+}
+
+/*--------FOOTER-------*/
+
 }
