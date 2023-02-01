@@ -25,7 +25,7 @@
             <li class="header-items"><a href="" class="header-link link">Contacts</a></li>
         </ul>
         </nav>
-        <button type="button" class="mobile-menu-btn">
+        <button class="mobile-menu-btn" data-menu-open type="button">
             <svg class="mobile-menu-icon" width="32" height="22">
                 <use href="./img/icons.svg#icon-charm_menu-hamburger"></use>
             </svg>
@@ -35,48 +35,52 @@
             <li class="header-contacts"><a href="tel:+110001111111" class="header-link-contacts link">+11 (000) 111-11-11</a></li>
         </ul>
         </div>
-        <div class="mob-menu">
-            <div class="mob-menu-container">
-            <button type="button" class="mob-menu-close-btn">
+        <div class="mob-menu" data-menu>
+            <div class="mob-menu-container container">
+                <div class="mob-conteiner-top">
+            <button type="button" class="mob-menu-close-btn" data-menu-close>
                     <svg class="mob-menu-close-icon" width="8" height="8">
                         <use href="./img/icons.svg#icon-close"></use>
                     </svg>
                 </button>
                 <nav class="mob-menu-navigation">
                     <ul class="mob-menu-list list">
-                        <li class="mob-menu-items"><a href="./index.html" class="mob-menu-link link current">Studio</a></li>
-                        <li class="mob-menu-items"><a href="./portfolio.html" class="mob-menu-link link">Portfolio</a></li>
-                        <li class="mob-menu-items"><a href="" class="mob-menu-link link">Contacts</a></li>
+                        <li class="mob-menu-items"><a href="./index.html" class="mob-menu-link link">Studio</a></li>
+                        <li class="mob-menu-items"><a href="" class="mob-menu-link link">Portfolio</a></li>
+                        <li class="mob-menu-items"><a href="" class="mob-menu-link current link">Contacts</a></li>
                     </ul>
                 </nav>
+            </div>
+            <div class="mob-conteiner-second">
                     <ul class="mob-menu-list list">
-                        <li class="mob-menu-contacts"><a href="tel:+110001111111" class="mob-menu-link-contacts link">+11 (000) 111-11-11</a></li>
+                        <li class="mob-menu-tel"><a href="tel:+110001111111" class="mob-menu-link-tel link">+11 (000) 111-11-11</a></li>
                         <li class="mob-menu-contacts"><a href="mailto:info@devstudio.com" class="mob-menu-link-contacts link">info@devstudio.com</a></li>
                         
                     </ul>
                 </svg>
                 <ul class="mob-menu-soc-list list">
                     <li class="mob-menu-soc-items"><a href="" class="mob-menu-soc-link link">
-                       <svg class="mob-menu-soc-icon" width="16" height="16"> 
+                       <svg class="mob-menu-soc-icon" width="24" height="24"> 
                             <use href="./img/icons.svg#icon-instagram"></use>
                      </svg> 
                     </a></li>
                     <li class="mob-menu-soc-items"><a href="" class="mob-menu-soc-link link">
-                     <svg class="mob-menu-soc-icon" width="16" height="16"> 
+                     <svg class="mob-menu-soc-icon" width="24" height="24"> 
                             <use href="./img/icons.svg#icon-twitter"></use>
                      </svg>   
                     </a></li>
                     <li class="mob-menu-soc-items"><a href="" class="mob-menu-soc-link link">
-                      <svg class="mob-menu-soc-icon" width="16" height="16"> 
+                      <svg class="mob-menu-soc-icon" width="24" height="24"> 
                             <use href="./img/icons.svg#icon-facebook"></use>
                      </svg>  
                     </a></li>
                     <li class="mob-menu-soc-items"><a href="" class="mob-menu-soc-link link">
-                        <svg class="mob-menu-soc-icon" width="16" height="16"> 
+                        <svg class="mob-menu-soc-icon" width="24" height="24"> 
                             <use href="./img/icons.svg#icon-linkedin"></use>
                      </svg>
                     </a></li>
                 </ul>
+            </div>
             </div>
         </div>
     </header>
@@ -88,7 +92,7 @@
             <button type="button" class="top-btn" data-modal-open>Order Service</button>
         </div>
     </section>
-    <!--<section class="second">
+    <section class="second">
       <div class="container"> 
     <ul class="second-list list"> 
         <li class="second-items">
@@ -422,5 +426,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
