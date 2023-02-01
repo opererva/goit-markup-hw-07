@@ -4,24 +4,36 @@
             
     }
 
+    
+
+    .header {
+        padding-bottom: 10px;   
+    }
+
     .header-nav-list {
         display: flex;
         gap: 40px;
-        margin-left: 77px;
+        margin-left: 120px;
+        margin-right: 110px;
 }
 
 .header-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    display: block;
+    
+    
 }
 
 .header-contacts {
     display: flex;
-    gap: 40px;
+    gap: 4px;
+
 }
 
 .mobile-menu-btn {
+    display: none;
+}
+
+.mob-menu-container {
     display: none;
 }
 

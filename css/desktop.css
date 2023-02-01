@@ -4,6 +4,32 @@
             padding-left: 15px;
             padding-right: 15px;
     }
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;   
+    }
+
+    .header-nav-list {
+        margin-left: 77px;
+        margin-right: auto;
+}
+    .header-list {
+        display: flex;
+       
+}
+
+.header-link.current::after {
+    bottom: -28px;
+}
+
+.header-link-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
     /* -----------TOP SECTION---------- */
 
     .top {
