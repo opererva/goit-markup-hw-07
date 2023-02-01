@@ -3,6 +3,59 @@
             width: 768px;
             
     }
+
+    .header-nav-list {
+        display: flex;
+        gap: 40px;
+        margin-left: 77px;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.mobile-menu-btn {
+    display: none;
+}
+
+
+/* -----------TOP SECTION---------- */
+    .top {
+        max-width: 768px;
+        height: 436px;
+        padding-top: 112px;
+        padding-bottom: 108px;
+        background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+        url(../img/Bg/bg-tablet-1x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .top{
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../img/Bg/bg-tablet-2x.jpg);
+  }
+}
+
+    .top-title {
+        max-width: 494px;
+        margin-bottom: 40px;
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: none;
+    }
     /* -----------SECOND SECTION---------- */
     .second-list {
         row-gap: 72px;
@@ -44,5 +97,50 @@ column-gap: 24px;
 }
 
 /*--------FOOTER-------*/
+.footer-container {
+    width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-information {
+    margin-right: 24px;
+    margin-bottom: 0;
+    align-items: flex-start;
+    max-width: 264px;
+}
+
+
+.footer-soc {
+    align-items: flex-start;
+}
+
+.footer-sub {
+    align-items: flex-start;    
+}
+
+.footer-sub-title {
+    text-align: start;
+}
+
+.footer-sub-wrap {
+    gap: 24px;
+}
+.footer-sub-input {
+    width: 264px;
+}
+
+.modal {
+    width: 408px;
+    height: 584px;
+}
+
 
 }
