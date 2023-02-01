@@ -321,16 +321,17 @@ body {
 .mob-menu-tel {
         font-family: 'Roboto';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-transform: capitalize;
 margin-bottom: 40px;
 }
-@media screen and (min-width: 427px) {
+@media screen and (min-width: 428px) {
         .mob-menu-tel {
         font-size: 36px; 
-        line-height: calc(36/40);
+        line-height: 1.1;
+        letter-spacing: 0.01em;
         }
       }
 
