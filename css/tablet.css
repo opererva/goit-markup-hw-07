@@ -4,7 +4,9 @@
             
     }
 
-    
+        .header-navigation {
+            margin-right: 110px;
+        }
 
     .header {
         padding-bottom: 10px;   
@@ -14,7 +16,7 @@
         display: flex;
         gap: 40px;
         margin-left: 120px;
-        margin-right: 110px;
+        
 }
 
 .header-list {
@@ -67,11 +69,9 @@
         text-transform: none;
     }
     /* -----------SECOND SECTION---------- */
-    .second-list {
-        row-gap: 72px;
-    }
+   
     .second-items {
-        width: calc((100% - 24px) / 2);       
+        width: calc((100% - 72px) / 2);       
 }
 
 .second-title {
@@ -100,11 +100,12 @@ column-gap: 24px;
     column-gap: 24px;   
 }
 
-.costomers-items  {
+.customers-items  {
     width: calc((100% - 48 px ) / 3);
     max-width: 168px;
     height: 88px;
 }
+
 
 /*---------ABOUT---------*/
 
