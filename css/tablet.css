@@ -106,6 +106,27 @@ column-gap: 24px;
     height: 88px;
 }
 
+/*---------ABOUT---------*/
+
+.about {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    
+}
+
+.about-list {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.about-picture-list >.container {
+    width: 736px;
+    margin: auto;
+}
+
+.about-picture-items {
+    width: calc((100% - 24px) / 2)}
+
 /*--------FOOTER-------*/
 .footer-container {
     width: 584px;
