@@ -75,8 +75,6 @@ body {
         border-bottom: 1px solid #e7e9fc;
 }
 
-
-
 .header-container {
         display: flex;
         align-items: center;
@@ -101,7 +99,7 @@ body {
 }
 
 .logo-studio {
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -327,7 +325,7 @@ line-height: 1.2;
 text-transform: capitalize;
 margin-bottom: 40px;
 }
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 480px) {
         .mob-menu-tel {
         font-size: 36px; 
         line-height: 1.1;
@@ -699,9 +697,18 @@ margin-bottom: 40px;
 
 /* ----------- ABOUT---------- */
 .about {
-        padding-top: 96px;
-        padding-bottom: 120px;
+        
+        padding-top: 48px;
+        padding-bottom: 48px;
 }
+
+@media screen and (max-width: 767px) {
+        .about {
+                width: 320px;
+        }       
+}
+
+
 
 .about-title-visually-hidden {
         position: absolute;
@@ -718,19 +725,21 @@ margin-bottom: 40px;
 
 .about-list {
         display: flex;
-        justify-content: center;
-        gap: 24px;
-        margin-bottom: 72px;
+        flex-wrap: wrap;
+        justify-content: start;
+        column-gap: 24px;
+        row-gap: 16px;
+        margin-bottom: 48px;
 }
 
 .about-items {}
 
 .about-btn {
         font-family: inherit;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
+        display: inline-block;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
@@ -738,7 +747,7 @@ margin-bottom: 40px;
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
-        padding: 12px 24px;
+        padding: 8px 16px;
         color: #4D5AE5;
         cursor: pointer;
         border: 1px solid #E7E9FC;
