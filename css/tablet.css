@@ -120,7 +120,7 @@ column-gap: 24px;
     align-items: center;
     gap: 24px;
 }
-.about-picture-list >.container {
+.about> .container {
     width: 736px;
     margin: auto;
 }
